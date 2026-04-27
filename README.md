@@ -38,14 +38,17 @@ The project demonstrates how JavaScript can be used to create dynamic and intera
 ---
 
 ## 📷 Screenshots
+
 <img width="940" height="436" alt="image" src="https://github.com/user-attachments/assets/d95d7bdf-b77e-4727-8c64-59a508633def" />
+
 <img width="940" height="433" alt="image" src="https://github.com/user-attachments/assets/87f4570f-1a25-4f6b-87ec-88132cdcf335" />
+
 <img width="940" height="423" alt="image" src="https://github.com/user-attachments/assets/a9e84c11-3531-468a-8e57-719f8f9cbd8e" />
 
 
 ## 🔗 Live Demo
 
-(Add your deployed link here if available)
+https://andrio-fernandes.github.io/andrio-fernandes-Digital-clock/
 
 ---
 
