@@ -1,0 +1,95 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling with Gradient */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    transition: 0.5s;
+
+    /* Gradient Background */
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+}
+
+/* Main Container */
+.container {
+    margin-top: 100px;
+    background: rgba(0, 0, 0, 0.25);
+    padding: 30px;
+    border-radius: 15px;
+    display: inline-block;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Title */
+h1 {
+    margin-bottom: 15px;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+/* Clock Styling */
+#clock {
+    font-size: 60px;
+    margin: 20px 0;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+    /* Glow Effect */
+    text-shadow: 0 0 0px rgba(255, 255, 255, 0.8),
+                 0 0 20px rgba(255, 255, 255, 0.6);
+}
+
+/* Date Styling */
+#date {
+    font-size: 18px;
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+/* Buttons Container */
+.buttons {
+    margin-top: 10px;
+}
+
+/* Button Styling */
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+
+    background: white;
+    color: #333;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background: #ddd;
+    transform: scale(1.05);
+}
+
+/* Dark Theme */
+.dark {
+    background: linear-gradient(135deg, #232526, #414345);
+    color: white;
+}
+
+/* Dark Theme Container Adjustment */
+.dark .container {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Smooth Transition for Everything */
+body, .container, button {
+    transition: all 0.3s ease;
+}
